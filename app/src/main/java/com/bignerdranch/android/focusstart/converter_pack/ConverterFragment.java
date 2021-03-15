@@ -77,7 +77,7 @@ public class ConverterFragment extends Fragment {
                     qty = Double.parseDouble(s.toString());
                 }
                 double nominaldb = nominal;
-                double allUnits = qty/value;
+                double allUnits = qty/(value/nominaldb);
                 DecimalFormat df = new DecimalFormat("#.####");
                 df.setRoundingMode(RoundingMode.CEILING);
                 mValuteSumm.setText(df.format(allUnits));
