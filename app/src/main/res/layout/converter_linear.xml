@@ -33,7 +33,7 @@
         android:layout_weight="1"
         android:textSize="20sp"
         android:gravity="center"
-        android:inputType="number"
+        android:inputType="numberDecimal"
         android:id="@+id/rub_count"
         android:hint="Введите сумму"/>
 
